@@ -1,0 +1,19 @@
+0.  BMP -> over 4 billion   GIF -> 256 colors    JPEG -> over 16 million   PNG -> over 16 million
+1.  GIF
+2.  In lossy compression all data cannot be recovered while decompressing while in lossless compression this can be done.
+3.  JPEG
+4.  When a file is deleted on a FAT file-system the system forgets the address where the file was kept.
+5.  Overwrite the whole disk with zeroes.
+6.  stdint.h is a header file which declares integer types with fixed size in bits.
+7.  It ensures that these types work on any machine( portability ).
+8.  BYTE -> 1 byte DWORD -> 4 bytes LONG -> 4 bytes WORD -> 2 bytes
+9.  4D42(HEXADECIMAL)
+10. bfSize gives size of whole image in bytes while biSize gives size of bitmapinfoheader in bytes. 
+11. It means that the image is top-down.
+12. biBitCount
+13. It may happen that we don't have write permissions or operating system's memory is not free. 
+14. Because we are reading in or writing out to the buffer in one time.
+15. 3
+16. It is used to set the position of file pointer respect to some position.
+17. It is current position indicator in a file.
+18. ROB BOWDEN.

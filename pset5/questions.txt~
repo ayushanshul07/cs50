@@ -1,0 +1,11 @@
+0.  It is the longest the word published in an English dictionary.It refers to a lung disease.
+1.  It provides measures of resources used by current process or it's terminated and child's processes.
+2.  There are 16 members in struct rusage.
+3.  Passing them value be will be a lot of data movement so we better pass a pointer
+4.  In main we read from text file one character at a time.First we allow characters which are either alphabets or an apostrophe.Than we ignore strings which are longer than LENGTH or containing digits and at last we attach a '\0' to terminate the string and than pass it to function check().
+5.  It helps us in removing numbers from within words.It gives us finer control of what we are passing to function check.
+6.  So that it's value cannot be changed inside the function.
+7.  I implemented a hash table.It has 45*26 buckets.Each bucket has a index(int) and pointer to a node.Each node has a char[] and two node pointers one pointing to next node(or null) and one pointing to previous node.
+8.  It took almost 50 seconds.
+9.  I increased the number of buckets and changed the hash function to decrease collision.
+10. Yes, maybe a can choose a better hash function.
